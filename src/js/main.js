@@ -4,6 +4,7 @@ import './slider';
 import forms from './modules/forms';
 import changeModalState from './modules/changeModalState';
 import timer from './modules/timer';
+import bigImg from './modules/bigImg';
 
 window.addEventListener('DOMContentLoaded', () => {
 
@@ -18,4 +19,5 @@ window.addEventListener('DOMContentLoaded', () => {
     tabs('.balcon_icons_img', '.big_img img', '.balcon_icons', 'do_image_more', false, 'inline');
     forms('form', modalState);
     timer('#timer', '2021-06-11');
+    bigImg();
 });
